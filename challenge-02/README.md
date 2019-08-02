@@ -31,7 +31,7 @@ function alteraAlgo(){
 alteraAlgo();
 
 // Qual o retorno da função? (Use comentários de bloco).
-NaN
+/* NaN */
 
 /*
 Crie uma função com as seguintes características:
@@ -92,8 +92,8 @@ function argumentos(x, y, z){
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-console.log(argumentos());
-console.log(argumentos(10));
-console.log(argumentos(10, 2));
-console.log(argumentos(10, 2, 5))
+argumentos(); // NaN
+argumentos(10); // NaN
+argumentos(10, 2); // NaN
+argumentos(10, 2, 5) // 2.4
 ```
